@@ -218,6 +218,7 @@ span {
 .gridb {
     display: grid;
     grid-template-columns: auto auto auto;
+    /* min-width: 100%; */
     margin-inline: 20px;
     gap: 43px;
     align-items: center;
@@ -225,8 +226,9 @@ span {
 }
 
 .gridb img {
-    width: 408px;
-    height: 408px;
+    /* width: 408px;
+    height: 408px; */
+    max-width: 100%;
 }
 
 .txtj {
